@@ -1,0 +1,192 @@
+section {
+    position: absolute;
+}
+.custom-landingpage{
+    margin-bottom: 700px;
+}
+
+.home {
+    width: 100%;
+    min-height: 85vh;
+    background-repeat: no-repeat;
+    background-color: #292929;
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.home-text {
+    position: absolute;
+    color: #fff;
+    font-family: "Product Sans", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    top: 80px;
+    left: 100px;
+    font-weight: 700;
+    line-height: normal;
+    bottom: 0;
+}
+
+.home-text p {
+    color: #FFF;
+    font-family: 'Product Sans',sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.grid-container {
+    top: 30px;
+    position: relative;
+    display: flex;
+}
+
+.grid-item {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.grid-image {
+    width: 5px;
+    height: 5px;
+    object-fit: contain;
+}
+
+
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 14px;
+    border-radius: 30px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: #292929;
+}
+
+.btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn:hover {
+    color: red;
+    background: #c5aaaa;
+}
+
+/* changing picture of .carasoul */
+.carasoul {
+    position: absolute;
+    width: 485px;
+    height: 685px;
+    font-size: 2.7rem;
+    bottom: 0px;
+    top: 40px;
+    right: 0px;
+    flex-shrink: 0;
+}
+
+/* For Desktop View */
+@media screen and (max-width: 1200px) {
+    .home {
+      
+        min-height: 80vh;
+        
+    }
+    .carasoul {
+        width: 395px;
+        height: 594px;
+    }
+
+    .grid-item {
+        width: 180px;
+        height: 180px;
+    }
+
+    .carasoul {
+        width: 395px;
+        height: 594px;
+    }
+
+    .navbarflex {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+        margin-left: auto;
+    }
+
+    .btn {
+        border-radius: 20px;
+        border-radius: 20px;
+    }
+}
+
+/* For Tablet View */
+@media screen and (max-width: 992px) {
+    .home {
+      
+        min-height: 75vh;
+        
+    }
+    .carasoul {
+        width: 295px;
+        height: 494px;
+    }
+
+    .grid-item {
+        width: 100px;
+        height: 100px;
+    }
+
+    .bottom-button-container {
+        bottom: 30px;
+    }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-width: 768px) {
+    .carasoul img {
+        display: none;
+    }
+
+    .grid-item {
+        width: 80px;
+        height: 80px;
+    }
+
+    .home-text {
+        left: 40px;
+    }
+
+    .btn {
+        padding: 5px 7px;
+
+    }
+
+    .bottom-button-container {
+        bottom: 15px;
+    }
+}
+
+@media screen and(max-width: 600px) {
+
+    .home-text {
+        left: 0px;
+    }
+
+    .bottom-button-container {
+        bottom: 5px;
+    }
+
+    .grid-item {
+        width: 50px;
+        height: 50px;
+    }
+
+}

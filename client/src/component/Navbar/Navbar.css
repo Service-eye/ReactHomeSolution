@@ -1,0 +1,292 @@
+
+
+.topheader {
+  display: flex;
+  width: 100%;
+  top: 0;
+  right: 0;
+  margin: 0px;
+  padding: 0px;
+  background-color: #292929;
+  align-items: center;
+  padding: 0px 15px;
+  justify-content: space-between;
+}
+
+.topheader img {
+  z-index: 1;
+}
+
+.logo-home {
+  height: 100px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: flex-start;
+  /* margin-left: 5px; */
+}
+
+.languagebtn {
+  padding: 10px 14px;
+  background-color: transparent;
+  border: none;
+  color:  #FD0418;
+  opacity: 0.5;
+  font-family: 'Jaldi';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.languagebtn a:hover {
+  color: red;
+}
+
+.languagebtn a {
+  text-decoration: none;
+  color: #c5aaaa;
+}
+
+.brandName {
+  color: var(--Nav-color, #c5aaaa);
+  font-family: 'Jaldi';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+
+  position: relative;
+  /* display: inline-flex; */
+  /* align-items: flex-start; */
+  left: 10px;
+  gap: 31px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  top: 0;
+  right: 0;
+  margin: 0px;
+  background-color: #292929;
+  align-items: center;
+  padding: 0px 18px;
+  justify-content: space-between;
+}
+
+/* .header img {
+  z-index: 1;
+} */
+
+.navbar {
+  position: relative;
+  display: inline-flex;
+  align-items: flex-start;
+  right: 31px;
+  gap: 31px;
+}
+
+.navbar a {
+  color: var(--Nav-color, #c5aaaa);
+  font-family: 'Jaldi';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  opacity: 0.;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #c5aaaa;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #292222;
+}
+
+#menu-icon {
+  display: none;
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .carasoul {
+    width: 395px;
+    height: 594px;
+  }
+
+  .grid-item {
+    width: 180px;
+    height: 180px;
+  }
+
+  .carasoul {
+    width: 395px;
+    height: 594px;
+  }
+
+  .navbarflex {
+    display: none;
+  }
+
+  #menu-icon {
+    display: block;
+    margin-left: auto;
+  }
+
+  .bottom-button-container {
+    bottom: 40px;
+  }
+}
+
+/* For Tablet View */
+@media screen and (max-width: 992px) {
+  .carasoul {
+    width: 295px;
+    height: 494px;
+  }
+
+  .grid-item {
+    width: 100px;
+    height: 100px;
+  }
+
+  .bottom-button-container {
+    bottom: 30px;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-width: 768px) {
+  .carasoul img {
+    display: none;
+  }
+  .grid-item{
+    width: 80px;
+    height: 80px;
+  }
+
+  .home-text {
+    left: 40px;
+  }
+  .btn {
+    padding: 5px 7px;
+    
+  }
+
+  .bottom-button-container {
+    bottom: 15px;
+  }
+}
+@media screen and(max-width: 600px){
+ 
+  .home-text{
+    left: 0px;
+  }
+  .bottom-button-container {
+    bottom: 5px;
+  }
+  .grid-item {
+    width: 50px;
+    height: 50px;
+  }
+  
+}
+
+
+
+/* About US */
+.frameContainer {
+  display: grid;
+  margin: auto;
+  width: 1145px;
+  height: 604px;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+  flex-shrink: 0;
+}
+.textField1 {
+  color: var(--font-color, #333);
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  line-height: normal;
+}
+.textField2 {
+  width: 559px;
+  height: 33.506px;
+  flex-shrink: 0;
+  color: var(--font-color-1, var(--testimonial-color, #666));
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Style for the image container */
+.image-container {
+  display: flex; 
+  justify-content: space-between; 
+  margin: auto; 
+}
+
+
+.image-item {
+  flex: 0 0 calc(33.33% - 10px); 
+}
+
+
+.image-item img {
+  width: 100%;
+  height: auto; 
+}
+.image1{
+  border-top-left-radius: 60px 60px;
+}
+.image2{
+  margin-top: -50px;
+
+}
+.image3{
+  border-bottom-right-radius: 60px 60px;
+}

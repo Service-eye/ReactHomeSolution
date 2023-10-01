@@ -1,0 +1,342 @@
+/* Inspiratino Collection */
+.insp-container {
+    margin-top: 10px;
+
+}
+
+.insp-textfield h1 {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--font-color, #333);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.insp-textfield h5 {
+    color: var(--font-color-1, var(--testimonial-color, #666));
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+.insp-image-container {
+    padding: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#card-image-left {
+    border-top-left-radius: 50px;
+
+}
+
+
+#card-image-mid {
+    margin-top: -40px;
+
+}
+
+#card-image-right {
+    border-bottom-right-radius: 50px;
+
+}
+
+/* Why us */
+.why-us-container{
+    margin-bottom: 70px;
+}
+.why-us-textfield {
+    margin-bottom: 50px;
+    color: var(--font-color, #333);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.icon-sets {
+    margin-bottom: 500px;
+    margin: 0;
+    width: 100%;
+    height: 358px;
+    background-color: #f2f5ff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.col-4 .parent {
+    display: flex;
+}
+
+.col-6 .parent {
+    justify-content: space-around;
+    display: flex;
+}
+
+.section1 {
+    margin-top: 100px;
+
+}
+
+#rowIcon {
+    font-size: 60px;
+    margin-right: 20px;
+}
+
+/* Beautify */
+.beautify-container {
+    position: relative;
+
+    background: #F2F5FF;
+}
+
+.beautify-textfie h1 {
+    color: var(--font-color, #333);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.beautify-textfie h5 {
+    color: var(--font-color-1, var(--testimonial-color, #666));
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    /* 195% */
+}
+
+.cards-container {
+    padding: 40px;
+
+
+}
+
+.w3r-circle {
+    position: absolute;
+    border-radius: 100%;
+    top: 30%;
+    right: 10px;
+    width: 372px;
+    height: 373.71px;
+    flex-shrink: 0;
+    background: #C5AAAA;
+    filter: blur(5px);
+    opacity: 0.38;
+}
+
+.card-container card {
+
+    background: #F2F5FF;
+}
+
+.cards-container .card {
+    border-radius: 50px;
+
+}
+
+#card-left {
+    margin-top: 50%;
+    background: #F2F5FF;
+
+}
+
+#card-right {
+    border-radius: 50px;
+
+}
+
+.beautify-textfield {
+
+    background: #F2F5FF;
+    justify-content: center;
+}
+
+/* Blogs */
+.about-us-blogs-container{
+    text-align: center;
+    margin: auto;
+}
+
+.about-us-blogs-textfield {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--font-color, #333);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-us-blogs-textfield h5 {
+    color: var(--font-color-1, var(--testimonial-color, #666));
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.about-us-blogs-image {
+    position: relative;
+}
+.about-us-blogs-card-img-top{
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.blog-numbering {
+    position: absolute;
+    margin-left: 39%;
+    margin-top: -10%;
+}
+
+.white-circle {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background-color: #FCFCFC;
+    border-radius: 100%;
+
+}
+
+.black-circle {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 100%;
+    background-color: #111;
+
+}
+
+.blog-numbering h1 {
+    width: 16px;
+    height: 23px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about-us-blogs-card-title {
+    margin-top: 20%
+}
+
+.about-us-blogs-card-title h1 {
+    color: var(--font-color, #333);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-us-blogs-card-title p {
+    width: 381px;
+    height: 59.635px;
+    color: var(--font-color-1, var(--testimonial-color, #666));
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    /* blogs */
+
+
+}
+
+@media only screen and (max-width: 992px) {
+    #card-left {
+        margin-top: 25%;
+    }
+    /* blogs */
+    .about-us-blogs-card-img-top{
+        border-radius: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #card-left {
+        margin-top: 0;
+    }
+
+    #card-image-mid {
+        margin: 0;
+        border-radius: 50px;
+
+    }
+
+    .w3r-circle {
+        display: none;
+    }
+
+    /* Why us */
+    .why-us-container{
+        display: none;
+    }
+    .blog-numbering h1{
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #card-image-left {
+        border-radius: 40px;
+
+    }
+
+    #card-image-mid {
+        margin: 0;
+        border-radius: 40px;
+
+    }
+
+    #card-image-right {
+        border-radius: 40px;
+
+    }
+
+    #card-left {
+        margin-top: 0;
+    }
+
+
+}
