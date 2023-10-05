@@ -1,27 +1,23 @@
 .chair-card-container {
-
   text-align: center;
   padding: 20px;
   margin: 20px;
-
-
 }
 
 .chair-card-container-custom {
   margin: auto;
-
+  margin-top: 10px;
 }
 
 .chair-card-container-custom:hover {
   background-color: #fff3f3;
-
-
 }
 
 .chair-card-custom {
   
   border: none;
   box-shadow: none;
+  overflow: hidden;
 }
 
 .chair-card-title {

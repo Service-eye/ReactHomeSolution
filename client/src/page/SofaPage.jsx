@@ -1,12 +1,14 @@
 import React from 'react'
-import Navbar from '../component/Navbar/Navbar'
-import SoffaArrays from '../component/SofaCollection/SoffaArrays'
+import Carousel from '../component/Carousel/Carousel'
+import NavbarBootstrap from '../component/Navbar/NavbarBootstrap'
+import SofaArrays from '../component/SofaCollection/SofaArrays'
 
 const SofaPage = () => {
     return (
         <>
-        <Navbar/>
-        <SoffaArrays/>
+        <NavbarBootstrap/>
+        <Carousel/>
+        <SofaArrays/>
         </>
     )
 }

@@ -1,12 +1,17 @@
 import React from 'react'
-import Navbar from '../component/Navbar/Navbar'
 import Blogs from '../component/Blogs/Blogs'
+import NavbarBootstrap from '../component/Navbar/NavbarBootstrap'
+import Footer from '../component/Footer/Footer'
+import Testimonial from '../component/Testimonial/Testimonial'
 
 const BlogPage = () => {
   return (
     <>
-      <Navbar/>
+      <NavbarBootstrap/>
       <Blogs/>
+      <Testimonial/>
+      <Footer/>
+      
     </>
   )
 }

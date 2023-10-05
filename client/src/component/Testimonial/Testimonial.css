@@ -1,0 +1,49 @@
+.custom-testimonial {
+    background-color: #F2F5FF;
+}
+
+.custom-testimonial-content {
+    padding: 40px 100px;
+}
+
+.custom-testimonial-content h1 {
+    color: #333333;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 150px;
+}
+
+.custom-testimonial-content p {
+    color: #666666;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.custom-testimonial-content h3 {
+    color: #008870;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.custom-img-div{
+    width: 60%;
+    padding: 20px;
+}
+.custom-img-div img{
+    border-top-left-radius: 80px ;
+    border-bottom-right-radius: 80px;
+}
+.custom-img-arrow{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

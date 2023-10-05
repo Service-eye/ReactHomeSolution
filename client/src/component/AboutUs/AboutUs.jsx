@@ -11,7 +11,7 @@ const AboutUs = () => {
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
                 </div>
                 <div className="insp-image-container">
-                    <div className="row row-cols-1 row-cols-md-3 g-4">
+                    <div className="row row-cols-1 row-cols-md-3 g-4 w-100">
                         <div className="col ">
                             <div className="card border-0 ">
                                 <img
@@ -46,19 +46,18 @@ const AboutUs = () => {
                 </div>
             </div>
             {/* Why Us */}
-            <div class="why-us-container">
-                <div class="why-us-textfield">
+            <div className="why-us-container">
+                <div className="why-us-textfield">
                     <h1>Why Choose Us</h1>
                 </div>
-                <div class="icon-sets ">
-                    <section class="section1">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="parent">
+                <div className="icon-sets ">
+                    <section className="section1">
+                        <div className="row">
+                            <div className="col-4">
+                                <div className="parent">
                                     <div id="left">
-                                        <i class="fa-solid fa-truck-fast" id="rowIcon"></i>
+                                        <i className="fa-solid fa-truck-fast" id="rowIcon" />
                                     </div>
-
                                     <div id="right">
                                         <div id="object2">
                                             <h4>Free Delivary</h4>
@@ -69,12 +68,11 @@ const AboutUs = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
-                                <div class="parent">
+                            <div className="col-4">
+                                <div className="parent">
                                     <div id="left">
-                                        <i class="fa-solid fa-clock-rotate-left" id="rowIcon"></i>
+                                        <i className="fa-solid fa-clock-rotate-left" id="rowIcon" />
                                     </div>
-
                                     <div id="right">
                                         <div id="object2">
                                             <h4>Support 24/7</h4>
@@ -85,12 +83,11 @@ const AboutUs = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
-                                <div class="parent">
+                            <div className="col-4">
+                                <div className="parent">
                                     <div id="left">
-                                        <i class="fa-solid fa-shield-halved" id="rowIcon"></i>
+                                        <i className="fa-solid fa-shield-halved" id="rowIcon" />
                                     </div>
-
                                     <div id="right">
                                         <div id="object2">
                                             <h4>100% Authentic</h4>
@@ -102,16 +99,12 @@ const AboutUs = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-6">
-                                <div class="parent">
+                        <div className="row">
+                            <div className="col-6">
+                                <div className="parent">
                                     <div id="left">
-                                        <i
-                                            class="fa-solid fa-person-walking-arrow-loop-left"
-                                            id="rowIcon"
-                                        ></i>
+                                        <i className="fa-solid fa-person-walking-arrow-loop-left" id="rowIcon" />
                                     </div>
-
                                     <div id="right">
                                         <div id="object2">
                                             <h4>Hassle Free Return</h4>
@@ -122,12 +115,11 @@ const AboutUs = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6">
-                                <div class="parent">
+                            <div className="col-6">
+                                <div className="parent">
                                     <div id="left">
-                                        <i class="fa-solid fa-basket-shopping" id="rowIcon"></i>
+                                        <i className="fa-solid fa-basket-shopping" id="rowIcon" />
                                     </div>
-
                                     <div id="right">
                                         <div id="object2">
                                             <h4>100% Authentic</h4>
@@ -142,6 +134,7 @@ const AboutUs = () => {
                     </section>
                 </div>
             </div>
+
             {/* Beautify-container */}
             <div className="beautify-container">
                 <div className="cards-container">
@@ -168,7 +161,7 @@ const AboutUs = () => {
                         <div className="col ">
                             <div className="card border-0 ">
                                 <img
-                                    src="./images/image 87.png"
+                                    src="./images/image 97.png"
                                     className="card-img-beauty-top"
                                     id="card-right"
                                     alt="..."
@@ -179,83 +172,80 @@ const AboutUs = () => {
                 </div>
             </div>
             {/* About us Blogs */}
-            <div class="about-us-blogs-container">
-                <div class="about-us-blogs-textfield">
+            <div className="about-us-blogs-container">
+                <div className="about-us-blogs-textfield">
                     <h1>Blogs</h1>
                     <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h5>
                 </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col">
-                            <div class="about-us-blogs-card h-100">
-                                <div class="about-us-blogs-image">
-                                    <img src="./images/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application 1.png"
-                                        class="about-us-blogs-card-img-top" alt="..." />
-                                    <div class="blog-numbering">
-                                        <div class="white-circle">
-                                            <div class="black-circle">
-                                                <div class="numbering">
+                <div className="container-fluid">
+                    <div className="row row-cols-1 row-cols-md-3 g-4 w-100 ">
+                        <div className="col">
+                            <div className="about-us-blogs-card h-100">
+                                <div className="about-us-blogs-image">
+                                    <img src="./images/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application 1.png" className="about-us-blogs-card-img-top" alt="..." />
+                                    <div className="blog-numbering">
+                                        <div className="white-circle">
+                                            <div className="black-circle">
+                                                <div className="numbering">
                                                     <h1>1.</h1>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="about-us-blogs-card-body">
-                                    <h5 class="about-us-blogs-card-title">
+                                <div className="about-us-blogs-card-body">
+                                    <h5 className="about-us-blogs-card-title">
                                         Purchase Securely
                                     </h5>
-                                    <p class="about-us-blogs-card-text text-truncate">
+                                    <p className="about-us-blogs-card-text text-truncate">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="about-us-blogs-card h-100">
-                                <div class="about-us-blogs-image">
-                                    <img src="./images/image 87.png"
-                                        class="about-us-blogs-card-img-top" alt="..." />
-                                    <div class="blog-numbering">
-                                        <div class="white-circle">
-                                            <div class="black-circle">
-                                                <div class="numbering">
+                        <div className="col">
+                            <div className="about-us-blogs-card h-100">
+                                <div className="about-us-blogs-image">
+                                    <img src="./images/image 87.png" className="about-us-blogs-card-img-top" alt="..." />
+                                    <div className="blog-numbering">
+                                        <div className="white-circle">
+                                            <div className="black-circle">
+                                                <div className="numbering">
                                                     <h1>2.</h1>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="about-us-blogs-card-body">
-                                    <h5 class="about-us-blogs-card-title">
+                                <div className="about-us-blogs-card-body">
+                                    <h5 className="about-us-blogs-card-title">
                                         Ships From Warehouse
                                     </h5>
-                                    <p class="about-us-blogs-card-text text-truncate">
+                                    <p className="about-us-blogs-card-text text-truncate">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="about-us-blogs-card h-100">
-                                <div class="about-us-blogs-image">
-                                    <img src="./images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering 1.png"
-                                        class="about-us-blogs-card-img-top" alt="..." />
-                                    <div class="blog-numbering">
-                                        <div class="white-circle">
-                                            <div class="black-circle">
-                                                <div class="numbering">
+                        <div className="col">
+                            <div className="about-us-blogs-card h-100">
+                                <div className="about-us-blogs-image">
+                                    <img src="./images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering 1.png" className="about-us-blogs-card-img-top" alt="..." />
+                                    <div className="blog-numbering">
+                                        <div className="white-circle">
+                                            <div className="black-circle">
+                                                <div className="numbering">
                                                     <h1>3.</h1>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="about-us-blogs-card-body">
-                                    <h5 class="about-us-blogs-card-title">
+                                <div className="about-us-blogs-card-body">
+                                    <h5 className="about-us-blogs-card-title">
                                         Style Your Room
                                     </h5>
-                                    <p class="about-us-blogs-card-text text-truncate">
+                                    <p className="about-us-blogs-card-text text-truncate">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     </p>
                                 </div>
@@ -264,6 +254,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+
 
         </>
     );
