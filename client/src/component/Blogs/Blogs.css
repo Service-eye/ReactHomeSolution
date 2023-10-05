@@ -1,11 +1,12 @@
 .blogs {
-  margin-top: 20px;
+  margin-top: 60px;
   justify-content: center;
 }
 
 .blogContents {
   text-align: center;
   justify-content: space-between;
+
   width: 325px;
   height: 520px;
   margin: auto;
@@ -88,7 +89,7 @@
 
   .blogContents {
 
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
     justify-content: center;
     width: 390px;

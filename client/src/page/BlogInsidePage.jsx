@@ -1,19 +1,19 @@
 import React from 'react'
-import Blogs from '../component/Blogs/Blogs'
 import NavbarBootstrap from '../component/Navbar/NavbarBootstrap'
+import BlogsInside from '../component/Blogs/BlogsInside'
 import Footer from '../component/Footer/Footer'
 import Testimonial from '../component/Testimonial/Testimonial'
 
-const BlogPage = () => {
+const BlogInsidePage = () => {
   return (
     <>
-      <NavbarBootstrap/>
-      <Blogs/>
-      <Testimonial/>
-      <Footer/>
+    <NavbarBootstrap/>
+    <BlogsInside/>
+    <Testimonial/>
+    <Footer/>
       
     </>
   )
 }
 
-export default BlogPage
+export default BlogInsidePage

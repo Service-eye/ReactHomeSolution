@@ -1,7 +1,6 @@
 /* Inspiratino Collection */
 .insp-container {
     margin-top: 10px;
-
 }
 
 .insp-textfield h1 {
@@ -274,8 +273,13 @@
 
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
     /* blogs */
+    .custom-blog{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  
 
 
 }
@@ -290,7 +294,6 @@
     }
 
 }
-
 @media only screen and (max-width: 768px) {
 
     #card-left {
@@ -316,7 +319,6 @@
     }
 
 }
-
 @media only screen and (max-width: 600px) {
     #card-image-left {
         border-radius: 40px;
@@ -336,6 +338,47 @@
 
     #card-left {
         margin-top: 0;
+    }
+    .about-us-blogs-container{
+        margin: auto;
+    }
+
+
+}
+@media only screen and (max-width: 400px) {
+    #card-image-left {
+        border-radius: 40px;
+
+    }
+
+    #card-image-mid {
+        margin: 0;
+        border-radius: 40px;
+
+    }
+
+    #card-image-right {
+        border-radius: 40px;
+
+    }
+
+    #card-left {
+        margin-top: 0;
+    }
+    .about-us-blogs-image{
+        width: 50px;
+        position: relative;
+        margin-left: 25px;
+
+    }
+    .about-us-blogs-card-img-top{
+        width: 280px;
+
+    }
+    .blog-numbering{
+        position: absolute;
+        bottom:-40px;
+        
     }
 
 

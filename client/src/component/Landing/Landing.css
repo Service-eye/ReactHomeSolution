@@ -1,23 +1,20 @@
-section {
-    position: absolute;
-}
-.custom-landingpage{
-    margin-bottom: 700px;
+
+.custom-landingpage-container{
+    padding: 0;
 }
 
-.home {
+.landing-page {
     width: 100%;
     min-height: 85vh;
-    background-repeat: no-repeat;
-    background-color: #292929;
+    background-color: #ddabab;
     background-position: right;
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
 }
 
-.home-text {
+.landing-page-text {
     position: absolute;
+    margin-top: 70px;
     color: #fff;
     font-family: "Product Sans", sans-serif;
     font-size: 60px;
@@ -29,7 +26,7 @@ section {
     bottom: 0;
 }
 
-.home-text p {
+.landing-page-text p {
     color: #FFF;
     font-family: 'Product Sans',sans-serif;
     font-size: 17px;
@@ -92,7 +89,7 @@ section {
 
 /* For Desktop View */
 @media screen and (max-width: 1200px) {
-    .home {
+    .landing-page {
       
         min-height: 80vh;
         
@@ -129,7 +126,7 @@ section {
 
 /* For Tablet View */
 @media screen and (max-width: 992px) {
-    .home {
+    .landing-page {
       
         min-height: 75vh;
         
@@ -160,7 +157,7 @@ section {
         height: 80px;
     }
 
-    .home-text {
+    .landing-page-text {
         left: 40px;
     }
 
@@ -176,7 +173,7 @@ section {
 
 @media screen and(max-width: 600px) {
 
-    .home-text {
+    .landing-page-text {
         left: 0px;
     }
 

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Blogs = () => {
     return (
         <>
-            <div className="container">
+            <div className="blogs-container">
                 <div className="blogs ">
                     <div className="row ">
                         <div className="col-sm-12 col-md-6 col-lg-4">
@@ -22,7 +22,7 @@ const Blogs = () => {
                                         colors only
 
                                     </div>
-                                    <Link to="#" className="readMore">Read More</Link>
+                                    <Link to="/blogsinside" className="readMore">Read More</Link>
 
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Blogs = () => {
                                         colors only
 
                                     </div>
-                                    <Link to="#" className="readMore">Read More</Link>
+                                    <Link to="/blogsinside" className="readMore">Read More</Link>
 
                                 </div>
 
@@ -63,7 +63,7 @@ const Blogs = () => {
                                         colors only
 
                                     </div>
-                                    <Link to="#" className="readMore">Read More</Link>
+                                    <Link to="/blogsinside" className="readMore">Read More</Link>
 
                                 </div>
 
@@ -85,7 +85,7 @@ const Blogs = () => {
                                         colors only
 
                                     </div>
-                                    <Link to="#" className="readMore">Read More</Link>
+                                    <Link to="/blogsinside" className="readMore">Read More</Link>
 
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ const Blogs = () => {
                                         colors only
 
                                     </div>
-                                    <Link to="#" className="readMore">Read More</Link>
+                                    <Link to="/blogsinside" className="readMore">Read More</Link>
 
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ const Blogs = () => {
                                         colors only
 
                                     </div>
-                                    <Link to="#" className="readMore">Read More</Link>
+                                    <Link to="/blogsinside" className="readMore">Read More</Link>
 
                                 </div>
                             </div>

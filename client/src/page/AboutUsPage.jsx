@@ -1,14 +1,19 @@
 import React from 'react'
 import AboutUs from '../component/AboutUs/AboutUs'
-import Navbar from '../component/Navbar/Navbar'
+import NavbarBootstrap from '../component/Navbar/NavbarBootstrap'
+import Landing from '../component/Landing/Landing'
+import Testimonial from '../component/Testimonial/Testimonial'
+import Footer from '../component/Footer/Footer'
 
 
 const AboutUsPage = () => {
   return (
     <>
-    <Navbar/>
+    <NavbarBootstrap/>
+    <Landing/>
     <AboutUs/>
-      
+    <Testimonial/>
+    <Footer/>
     </>
   )
 }

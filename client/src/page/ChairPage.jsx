@@ -1,12 +1,14 @@
 import React from 'react'
-import Navbar from '../component/Navbar/Navbar'
 import ChairArrays from '../component/ChairCollection/ChairArrays'
+import NavbarBootstrap from '../component/Navbar/NavbarBootstrap'
+import Footer from '../component/Footer/Footer'
 
 const ChairPage = () => {
   return (
     <>
-    <Navbar/>
+    <NavbarBootstrap/>
     <ChairArrays/>
+    <Footer/>
       
     </>
   )
