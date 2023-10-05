@@ -11,7 +11,7 @@ const NewArivals = () => {
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 ms-1">
                     <div>
                         <div className="custom-border custom-newarrivals-box">
-                            <img src="./images/FurnitureHubProject/new arrivals/ae-830-36-13-2-removebg-preview.png" className="card-img-top" alt="..." />
+                            <img src="./images/FurnitureHubProject/new arrivals/product-2.png" className="card-img-top" alt="..." />
                             <div className="card-body text-center">
                                 <h5 className="card-title custom-title">Epson E8-E01 XGA 3LCD
                                     Projector</h5>
@@ -33,7 +33,7 @@ const NewArivals = () => {
                     </div>
                     <div>
                         <div className="custom-border custom-newarrivals-box">
-                            <img src="./images/FurnitureHubProject/new arrivals/ae-d53-beauty-1_1-removebg-preview.png" className="card-img-top" alt="..." />
+                            <img src="./images/FurnitureHubProject/new arrivals/sofa.png" className="card-img-top" alt="..." />
                             <div className="card-body text-center">
                                 <h5 className="card-title custom-title">Epson E8-E01 XGA 3LCD
                                     Projector</h5>
@@ -44,7 +44,7 @@ const NewArivals = () => {
                     </div>
                     <div>
                         <div className="custom-border custom-newarrivals-box">
-                            <img src="public/images/FurnitureHubProject/New folder/img_0831-edit_1_2-removebg-preview.png" className="card-img-top" alt="..." />
+                            <img src="./images/FurnitureHubProject/new arrivals/ae-d53-beauty-1_1-removebg-preview 1.png" className="card-img-top" alt="..." />
                             <div className="card-body text-center">
                                 <h5 className="card-title custom-title">Epson E8-E01 XGA 3LCD
                                     Projector</h5>

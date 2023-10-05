@@ -6,7 +6,9 @@
 .landing-page {
     width: 100%;
     min-height: 85vh;
-    background-color: #ddabab;
+    background: linear-gradient(180deg,
+            rgba(230, 125, 125, 0.2),
+            rgba(94, 115, 168, 0.2));
     background-position: right;
     background-size: cover;
     background-attachment: fixed;

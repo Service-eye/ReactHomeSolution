@@ -36,7 +36,7 @@
 .hover-logo {
     height: 80px;
     width: 80px;
-    background: linear-gradient(180deg,
+    background: linear-gradient(360deg,
             #DC1C13,
             #F07470);
     border-radius: 50%;
@@ -66,4 +66,90 @@
 .custom-border:hover .hover-logo {
     display: block;
     transition: 3s;
+}
+
+
+/* responsive for smaller than 1200px*/
+@media screen and (max-width:1200px) {
+    .card-img-top {
+        height: 250px;
+        top: -80px;
+    }
+
+    .custom-border {
+        width: 250px;
+        height: 400px;
+    }
+
+    .custom-title {
+        font-size: 15px;
+    }
+
+    .hover-logo {
+        height: 50px;
+        width: 50px;
+        left: 90px;
+        margin-top: 30px;
+    }
+
+    .hover-logo i {
+        padding: 18px;
+        font-size: medium;
+    }
+
+    .custom-seeMore h4 {
+        font-size: large;
+    }
+}
+
+/* End */
+/* responsive for smaller than 992px*/
+@media screen and (max-width:992px) {
+    .card-img-top {
+        height: 300px;
+        top: -100px;
+    }
+
+    .custom-border {
+        width: 300px;
+        height: 400px;
+    }
+
+    .custom-title {
+        font-size: 20px;
+    }
+
+    .hover-logo {
+        height: 80px;
+        width: 80px;
+        left: 110px;
+        margin-top: 25px;
+    }
+
+    .hover-logo i {
+        padding: 28px;
+        font-size: x-large;
+    }
+
+    .custom-footer3-div {
+        padding-top: 80px;
+    }
+
+    .custom-aboutUs-image-div {
+        display: none;
+    }
+
+    .custom-newarrivals-box {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .custom-seeMore h4 {
+        font-size: medium;
+    }
+
+    .custom-map-125 {
+        padding-top: 20px;
+    }
+
 }
