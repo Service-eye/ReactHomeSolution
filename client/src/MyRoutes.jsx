@@ -28,7 +28,7 @@ const MyRoutes = () => {
 
 
           <Route path="/adminLogin" element={<LoginPage/>}/>
-          <Route path="/admindahboard" element={<DashboardPage/>}/>
+          <Route path="/admindashboard" element={<DashboardPage/>}/>
 
 
 
