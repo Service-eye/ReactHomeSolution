@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const HomeAboutUs = () => {
     return (
         <>
-            <div className="containter-fluid">
+            
                 <div className="home-container">
                 <div className="row g-4 p-4  d-flex justify-content-between">
                     <div className="col-lg-5">
@@ -31,7 +31,7 @@ const HomeAboutUs = () => {
                     </div>
                 </div>
             </div>
-            </div>
+            
 
 
         </>

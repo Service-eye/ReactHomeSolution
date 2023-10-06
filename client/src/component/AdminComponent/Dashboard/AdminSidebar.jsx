@@ -4,36 +4,64 @@ const AdminSidebar = () => {
     return (
         <>
             <div>
-                <h1 className="visually-hidden">Sidebars examples</h1>
+                <h1 className="visually-hidden">Sidebar</h1>
                 <div className="d-flex flex-column flex-shrink-0 p-3 text-bg-light" style={{ width: 280 }}>
                     <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                        <span className="fs-4 text-dark ">Sidebar</span>
+                        <span className="fs-4 text-dark ">Admin Panel</span>
                     </a>
                     <hr />
                     <ul className="nav nav-pills flex-column mb-auto">
                         <li className="nav-item ">
                             <a href="#" className="nav-link active" aria-current="page">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="nav-link text-dark">
                                 Dashboard
                             </a>
                         </li>
+                        <hr /> 
+                        <div>Product Details</div>
+                        <hr />
                         <li>
                             <a href="#" className="nav-link text-dark">
-                                Orders
+                                Furniture
                             </a>
                         </li>
                         <li>
                             <a href="#" className="nav-link text-dark">
-                                Products
+                                Door
                             </a>
                         </li>
                         <li>
                             <a href="#" className="nav-link text-dark">
-                                Customers
+                                Chimney
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="nav-link text-dark">
+                                Solar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="nav-link text-dark">
+                                Decorative Item
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="nav-link text-dark">
+                                CNC Jali
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="nav-link text-dark">
+                                Parqueting
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="nav-link text-dark">
+                                Wall Panel
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" className="nav-link text-dark">
+                                Blog
                             </a>
                         </li>
                     </ul>
@@ -53,7 +81,6 @@ const AdminSidebar = () => {
                     </div>
                 </div>
             </div>
-            <div class="b-example-divider b-example-vr"></div>
 
 
 
