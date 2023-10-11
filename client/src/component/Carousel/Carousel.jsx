@@ -10,7 +10,7 @@ const Carousel = () => {
                         <input type="radio" name="radio-buttons" id="img-1" defaultChecked />
                         <li className="slide-container">
                             <div className="slide-image">
-                                <img src="./images/unsplash_nWidMEQsnAQ.png" />
+                                <img src="/images/unsplash_nWidMEQsnAQ.png" />
                             </div>
                             <div className="carousel-controls">
                                 <label htmlFor="img-3" className="cara-prev-slide">
@@ -24,7 +24,7 @@ const Carousel = () => {
                         <input type="radio" name="radio-buttons" id="img-2" />
                         <li className="slide-container">
                             <div className="slide-image">
-                                <img src="./images/unsplash_nWidMEQsnAQ.png" />
+                                <img src="/images/unsplash_nWidMEQsnAQ.png" />
                             </div>
                             <div className="carousel-controls">
                                 <label htmlFor="img-1" className="prev-slide">
@@ -38,7 +38,7 @@ const Carousel = () => {
                         <input type="radio" name="radio-buttons" id="img-3" />
                         <li className="slide-container">
                             <div className="slide-image">
-                                <img src="./images/unsplash_nWidMEQsnAQ.png" />
+                                <img src="/images/unsplash_nWidMEQsnAQ.png" />
                             </div>
                             <div className="carousel-controls">
                                 <label htmlFor="img-2" className="prev-slide">

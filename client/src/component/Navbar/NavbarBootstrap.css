@@ -5,8 +5,8 @@
   width: 100%;
   height: 100%;
   height: 70px;
-  background: #e19898;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  background: rgba(1, 74, 60, 0.94);
+  /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); */
   z-index: 99;
 }
 
@@ -17,22 +17,30 @@
 }
 
 .navbar-bootstrap-aria-controls {
-  background-color: #e19898;
+  background-color: rgba(1, 74, 60, 0.94);
 
 }
 #basic-navbar-nav{
   justify-content: center;
-  background-color: #e19898;
+  /* background-color: rgba(1, 74, 60, 0.94); */
 }
 
 #basic-nav-dropdown {
   margin-top: 5px;
-  background-color: #e19898;
+  color: #fff;
+
+  /* background-color: rgba(1, 74, 60, 0.94); */
   
 }
 
+#basic-nav-dropdown:hover{
+  /* background-color: rgba(1, 74, 60, 0.94); */
+  color: red;
+}
+
 .navbar-bootstrap-custom-link {
-  color: var(--Nav-color, #623737);
+  /* margin-top: 20px; */
+  color: var(--Nav-color, white);
   font-family: 'Jaldi',sans-serif;
   text-decoration: none;
   font-size: 20px;
@@ -40,3 +48,30 @@
   font-weight: 400;
   line-height: normal;
 }
+.navbar-bootstrap-custom-link:hover{
+  /* background-color: rgba(1, 74, 60, 0.94); */
+  color: red;
+}
+
+@media screen and (max-width:992px) {
+  #basic-navbar-nav{
+    background-color: rgba(1, 74, 60, 0.94);
+  }
+ 
+
+}
+@media screen and (min-width:900px) {
+  .custom-text-dropdown{
+    position: absolute;
+    top:-10px;
+    background-color: darkgreen;
+
+  }
+
+}
+.custom-text-dropdown{
+  color: black;
+}
+
+
+

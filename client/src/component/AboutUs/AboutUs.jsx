@@ -15,7 +15,7 @@ const AboutUs = () => {
                         <div className="col ">
                             <div className="card border-0 ">
                                 <img
-                                    src="./images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering 2.png"
+                                    src="/images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering 2.png"
                                     className="card-img-insp-top"
                                     id="card-image-left"
                                     alt="..."
@@ -25,7 +25,7 @@ const AboutUs = () => {
                         <div className="col ">
                             <div className="card border-0">
                                 <img
-                                    src="./images/scandinavian-interior-mockup-wall-decal-background 2.png"
+                                    src="/images/scandinavian-interior-mockup-wall-decal-background 2.png"
                                     className="card-img-insp-top"
                                     id="card-image-mid"
                                     alt="..."
@@ -35,7 +35,7 @@ const AboutUs = () => {
                         <div className="col ">
                             <div className="card border-0">
                                 <img
-                                    src="./images/light-lamp-white-wall-1 1.png"
+                                    src="/images/light-lamp-white-wall-1 1.png"
                                     className="card-img-insp-top"
                                     id="card-image-right"
                                     alt="..."
@@ -161,7 +161,7 @@ const AboutUs = () => {
                         <div className="col ">
                             <div className="card border-0 ">
                                 <img
-                                    src="./images/image 97.png"
+                                    src="/images/image 97.png"
                                     className="card-img-beauty-top"
                                     id="card-right"
                                     alt="..."
@@ -182,7 +182,7 @@ const AboutUs = () => {
                         <div className="col">
                             <div className="about-us-blogs-card h-100">
                                 <div className="about-us-blogs-image">
-                                    <img src="./images/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application 1.png" className="about-us-blogs-card-img-top" alt="..." />
+                                    <img src="/images/african-american-man-paying-with-credit-card-online-while-making-orders-via-mobile-internet-making-transaction-using-mobile-bank-application 1.png" className="about-us-blogs-card-img-top" alt="..." />
                                     <div className="blog-numbering">
                                         <div className="white-circle">
                                             <div className="black-circle">
@@ -206,7 +206,7 @@ const AboutUs = () => {
                         <div className="col">
                             <div className="about-us-blogs-card h-100">
                                 <div className="about-us-blogs-image">
-                                    <img src="./images/image 87.png" className="about-us-blogs-card-img-top" alt="..." />
+                                    <img src="/images/image 87.png" className="about-us-blogs-card-img-top" alt="..." />
                                     <div className="blog-numbering">
                                         <div className="white-circle">
                                             <div className="black-circle">
@@ -230,7 +230,7 @@ const AboutUs = () => {
                         <div className="col">
                             <div className="about-us-blogs-card h-100">
                                 <div className="about-us-blogs-image">
-                                    <img src="./images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering 1.png" className="about-us-blogs-card-img-top" alt="..." />
+                                    <img src="/images/empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering 1.png" className="about-us-blogs-card-img-top" alt="..." />
                                     <div className="blog-numbering">
                                         <div className="white-circle">
                                             <div className="black-circle">

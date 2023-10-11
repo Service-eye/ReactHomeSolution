@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6 col-lg-4 d-flex flex-column">
-                            <img src="./images/Logo1.png" alt className="custom-footer3-img-144" />
+                            <img src="/images/Logo1.png" alt className="custom-footer3-img-144" />
                             <div className="d-flex flex-row m-auto">
                                 <i className="fa-solid fa-map-pin fs-2 text-success" />
                                 <div>

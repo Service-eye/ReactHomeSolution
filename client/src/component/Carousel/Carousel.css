@@ -1,6 +1,9 @@
 .carousel-container-custom {
     width: 100%;
-    background-color: #ddabab;
+    /* background-color: #ddabab; */
+    background: linear-gradient(20deg,
+            rgba(1, 74, 60, 0.94), 
+            rgba(204, 110, 110, 0.2));
   }
   
   .carousel {

@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './ProductDetail.css'
+import { Link, useParams } from 'react-router-dom'
+import { API_URL, IMG_URL } from '../../Config'
 
 // var ProductImg = document.getElementById("ProductImg");
 // var smallImg = document.getElementsByClassName("small-img");
@@ -17,49 +19,76 @@ import './ProductDetail.css'
 // };
 
 const ProductDetail = () => {
+    const params = useParams()
+    console.log(params.id)
+    const [products, setProducts] = useState({})
+    useEffect(() => {
+       const get=async()=>{
+
+       await fetch(`${API_URL}/productdetails/${params.id}`)
+            .then(res => res.json())
+            .then(data => setProducts(data))
+        }
+        get()
+
+
+
+
+    }, [])
     return (
         <>
             <div className="row p-4 mx-2">
                 <div className="col-lg-7">
                     <div className="custom-productDetail-img">
-                        <img src="./images/chair-removebg-preview.png" id="ProductImg" />
+                        
+
+                       {
+                        products && products?.productPictures ?
+                        <img src={`${IMG_URL}/${products?.productPictures[0]?.img}`}  id="ProductImg" />:
+                        null
+                        
+                       } 
                     </div>
                     <div className="small-img-row">
-                        <div className="small-img-col">
-                            <img src="./images/FurnitureHubProject/New folder/pngegg (1).png" className="small-img" />
-                        </div>
-                        <div className="small-img-col">
-                            <img src="./images/FurnitureHubProject/New folder/pngegg (2).png" className="small-img" />
-                        </div>
-                        <div className="small-img-col">
-                            <img src="./images/FurnitureHubProject/New folder/pngegg (3).png" className="small-img" />
-                        </div>
-                        <div className="small-img-col">
-                            <img src="./images/FurnitureHubProject/New folder/pngegg (4).png" className="small-img" />
-                        </div>
+                    { products && products?.productPictures ?
+                      products?.productPictures
+                      .map((picture, index) => {
+                        return <>
+                        <img
+                          key={picture._id}
+                          src={`http://localhost:2000/public/${picture.img}`}
+                          alt={`Product Image ${index }`}
+                          width={100}
+                          height={100}
+                          className="small-img" 
+                        />
+                        
+                        </>
+
+                        
+}): null}
+                   
                     </div>
                 </div>
                 <div className="col-lg-5">
-                    <h2 className="custom-text-38">Sofa code 234</h2>
-                    <h4 className="custom-text-39">$50.00</h4>
+                    <h2 className="custom-text-38">{products?.name}</h2>
+                    <h4 className="custom-text-39">NRS {products?.price}</h4>
                     <p className="custom-product-information">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nemo
-                        nam magnam rerum sunt explicabo! Distinctio ipsam doloremque nostrum
-                        ipsum?
+                        {products?.description}
                     </p>
-                    <p className="custom-product-information">Sku: 02</p>
-                    <p className="custom-category-information">Category: sofa</p>
+                    <p className="custom-product-information">Quantity: {products?.quantity}</p>
+                    {
+                        products && products?.category ? 
+                        <>
+                   <Link to={`/${products?.category?._id}`}><p className="custom-category-information">Category: {products?.category?.name}</p> </Link> 
+
+                        </> :
+                        null
+                    }
                     <div className="custom-category-information">
                         <span>tag: </span><span>sofa </span><span>clean</span>
                     </div>
-                    <div className="custom-description">
-                        <p>Description</p>
-                    </div>
-                    <p className="custom-category-information">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nemo
-                        nam magnam rerum sunt explicabo! Distinctio ipsam doloremque nostrum
-                        ipsum?
-                    </p>
+                    
                 </div>
             </div>
         </>

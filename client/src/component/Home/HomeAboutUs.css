@@ -4,9 +4,9 @@
 .custom-aboutUs-div {
     position: relative;
 
-    background: linear-gradient(180deg,
-            rgba(248, 142, 142, 0.2),
-            rgba(142, 172, 248, 0.2));
+     background: linear-gradient(230deg,
+            rgba(1, 74, 60, 0.94), 
+            rgba(204, 110, 110, 0.2));
     /* border-radius: 50px 0px 50px 0px; */
 
 }
@@ -14,17 +14,21 @@
 .custom-aboutUs {
     color: #D2B5B5;
     position: absolute;
-    margin-top: -80px;
+    margin-top: -40px;
     font-size: 60px;
     font-family: 'Jaldi',sans-serif;
     font-weight: 400;
     word-wrap: break-word
 }
 
+.custom-home-about-us{
+    margin-top: 200px;
+
+}
 .aboutUs-more-32 {
     text-decoration: none;
     display: block;
-    margin-top: 100px;
+    margin-top: 150px;
     color: black;
     font-size: larger;
 }

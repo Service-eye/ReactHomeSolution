@@ -20,9 +20,9 @@ const HomePage = () => {
       <NavbarBootstrap/>
       <Landing />
       <HomeAboutUs/>
+      <Furnitures/>
       <NewArivals/>
       <RecommendedForYou/>
-      <Furnitures/>
       <Solars/>
       <Chimney/>
       <WallPanel/>

@@ -16,7 +16,7 @@ const Testimonial = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="custom-img-div">
-                            <img src="./images/image 98.png" alt className="image5" />
+                            <img src="/images/image 98.png" alt className="image5" />
                             <div className="custom-img-arrow">
                                 <i className="fa-solid fa-arrow-left fs-4" />
                                 <i className="fa-solid fa-arrow-right fs-4" />

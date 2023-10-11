@@ -7,11 +7,11 @@ const HomeAboutUs = () => {
         <>
             
                 <div className="home-container">
-                <div className="row g-4 p-4  d-flex justify-content-between">
+                <div className="row g-4 p-4  d-flex justify-content-between container-fluid">
                     <div className="col-lg-5">
                         <div className="p-4 custom-aboutUs-div">
                             <h1 className="border border-5 border-white d-inline-flex p-1 custom-aboutUs">About Us</h1>
-                            <p className="custom-p-21 mt-4">Home Solution Kathmandu is staffed by a team of
+                            <p className="custom-home-about-us">Home Solution Kathmandu is staffed by a team of
                                 energetic and dynamic people who have years of
                                 experience in this field in Nepal. We offer a
                                 luxury sofa, bed, dining, and other furniture as per
@@ -27,7 +27,7 @@ const HomeAboutUs = () => {
                         </div>
                     </div>
                     <div className="col-lg-7 custom-aboutUs-image-div">
-                        <img src="./images/chair-removebg-preview.png" alt className="custom-aboutUs-image" />
+                        <img src="/images/chair-removebg-preview.png" alt className="custom-aboutUs-image" />
                     </div>
                 </div>
             </div>

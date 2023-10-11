@@ -11,19 +11,23 @@ import BlogInsidePage from "./page/BlogInsidePage";
 import ProductDetailPage from "./page/ProductDetailPage";
 import LoginPage from "./page/AdminPages/LoginPage";
 import DashboardPage from "./page/AdminPages/DashboardPage";
+import ScrolltoTop from "./page/ScrolltoTop";
+import FurniturePage from "./page/FurniturePage";
 
 const MyRoutes = () => {
   return (
     <>
       <BrowserRouter>
+      <ScrolltoTop>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/sofas" element={<SofaPage/>}/>
+          <Route path="/" exact element={<HomePage />} />
+          <Route path="/sofas"  element={<SofaPage/>}/>
           <Route path="/blogs" element={<BlogPage/>}/>
           <Route path="/chairs" element={<ChairPage/>}/>
           <Route path="/aboutus" element={<AboutUsPage/>}/>
-          <Route path="/blogsinside" element={<BlogInsidePage/>}/>
-          <Route path="/productdetails" element={<ProductDetailPage/>}/>
+          <Route path="/bloginside/:id" element={<BlogInsidePage/>}/>
+          <Route path="/productdetails/:id" exact element={<ProductDetailPage/>}/>
+          <Route path="/furniture" exact element={<FurniturePage/>}/>
 
 
 
@@ -33,6 +37,8 @@ const MyRoutes = () => {
 
 
         </Routes>
+      </ScrolltoTop >
+
       </BrowserRouter>
     </>
   );

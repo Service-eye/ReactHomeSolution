@@ -1,19 +1,37 @@
+.container {
+    width: 100%;
+}
+
 .custom-text {
-    color: #545F71;
     text-align: center;
     margin: 150px 0px;
+    color: #1E1E1E;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 
-.custom-seeMore h4 {
+.custom-seeMore {
     color: #9C9595;
-    font-size: 18px;
-    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     text-transform: capitalize;
     word-wrap: break-word;
     margin-left: 90%;
-    margin-top: 30px;
+    margin-top: -40px;
+}
+
+.custom-seeMore button {
+    background-color: aliceblue;
+
+}
+
+.custom-seeMore-size {
+    font-size: 18px;
 }
 
 /* responsive for smaller than 1200px*/
@@ -30,6 +48,7 @@
     .custom-title {
         font-size: 20px;
     }
+
     .custom-seeMore h4 {
         font-size: medium;
     }
