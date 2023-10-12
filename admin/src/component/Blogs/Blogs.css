@@ -1,0 +1,152 @@
+.blogs {
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.blogContents {
+  text-align: center;
+  justify-content: space-between;
+  width: 325px;
+  height: 520px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.custom-overflow {
+
+  overflow: hidden;
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  border-start-start-radius: 40px;
+  border-end-end-radius: 40px;
+}
+
+.blog_Image {
+  width: 300px;
+  height: 350px;
+
+  border-start-start-radius: 40px;
+  border-end-end-radius: 40px;
+}
+
+.blog_Image:hover {
+  transform: scale(1.6);
+
+}
+
+.blog_ImageText {
+
+  margin: auto;
+  width: 300px;
+
+}
+.blogs-individual-blog{
+  text-decoration: none;
+}
+.readMore {
+
+  color: #303030;
+  text-align: center;
+  font-family: 'Product Sans', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-bottom: 10px;
+
+}
+
+.postDate {
+  margin-top: 20px;
+
+
+  color: #9E9E9E;
+  font-family: 'Product Sans' sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+
+
+}
+
+.blogDiscriptioni {
+
+
+  color: #303030;
+  text-align: center;
+  font-family: 'Product Sans', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 530;
+  line-height: normal;
+  
+}
+
+@media screen and (max-width: 1200px) {
+
+
+  .blogContents {
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+    justify-content: center;
+    width: 390px;
+    height: 520px;
+
+  }
+  .custom-overflow {
+
+    width: 250px;
+    height: 350px;
+  }
+  .blog_Image {
+    width: 250px;
+    height: 350px;
+    border-start-start-radius: 40px;
+    border-end-end-radius: 40px;
+  }
+
+  .blog_ImageText {
+    margin-bottom: 5px;
+    width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .blogContents {
+
+    width: 350px;
+    height: 490px
+  }
+  .blog_Image {
+    width: 235px;
+    height: 325x;
+    border-start-start-radius: 40px;
+    border-end-end-radius: 40px;
+  }
+
+  .blog_ImageText {
+    margin-bottom: 3px;
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .custom-overflow {
+
+    width: 205px;
+    height: 300px;
+  }
+  
+
+}
+
+@media screen and(max-width: 600px) {
+  
+}

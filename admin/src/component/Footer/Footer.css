@@ -1,0 +1,90 @@
+
+.footer-custom-container-01{
+    margin-top: 90px;
+}
+/* Footer 2 Start */
+
+.custom-footer-container {
+    background-color: #f2f5ff;
+    margin-top: 30px;
+}
+
+.text-contactUs-129 {
+    text-align: center;
+    padding: 15px;
+    font-size: xX-large;
+    color: #008870;
+}
+
+.input-contactUs-132 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-contactUs-132 input {
+    width: 20%;
+    padding: 10px;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.send-button-135 {
+    width: 60px;
+    height: 40px;
+    background: #008870;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* Footer 2 End */
+/* Footer 3 Start */
+
+.custom-footer3-img-144 {
+    margin: auto;
+    height: 180px;
+    width: 180px;
+}
+
+li {
+    list-style: none;
+    font-size: larger;
+    color: #AAA1A1;
+    
+}
+
+.custom-footer3-div {
+    text-align: center;
+    margin-top: 50px;
+}
+.custom-footer3-div a{
+    text-decoration: none;
+
+}
+
+
+.custom-footer3-div ul li {
+    margin-bottom: 20px;
+}
+
+.text-followUs-191 {
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+    color: #008870;
+}
+
+.custom-followUs-icon {
+    margin: 20px 25px;
+    text-shadow: -6px -4px 15px #97dce0;
+}
+
+.custom-copyright-201 {
+    text-align: center;
+    padding: 10px;
+    color: #000000;
+    background-color: #00000033;
+}

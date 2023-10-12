@@ -1,0 +1,13 @@
+.custom-hs-navbar{
+  margin-top: 0;
+  background-color: rgba(1, 74, 60, 0.94);
+}
+.logo-home {
+  width: 70px;
+  height: 70px;
+}
+
+
+.dropdown:hover .subdropdown{
+  display: block;
+}
